@@ -1,4 +1,4 @@
-# OneSky.CSharp #
+# Lykke.OneSky #
 C# client for OneSky API.
 
 [<img src="https://img.shields.io/nuget/v/OneSky.CSharp.svg">](https://www.nuget.org/packages/OneSky.CSharp/)
