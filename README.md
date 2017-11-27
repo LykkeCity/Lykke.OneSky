@@ -1,14 +1,14 @@
 # Lykke.OneSky #
 C# client for OneSky API.
 
-[<img src="https://img.shields.io/nuget/v/OneSky.CSharp.svg">](https://www.nuget.org/packages/OneSky.CSharp/)
+[<img src="https://img.shields.io/nuget/v/Lykke.OneSky.svg">](https://www.nuget.org/packages/Lykke.OneSky/)
 
 ## Information ##
 
 ### Installation ###
 Install NuGet package:
 
-1. Run `Install-Package OneSky.CSharp` in the _Package Manager Console_
+1. Run `Install-Package Lykke.OneSky` in the _Package Manager Console_
 2. Or find package in _NuGet Package Manager_
 
 Or just _Pull & Compile_
@@ -19,7 +19,7 @@ Or just _Pull & Compile_
 ### Quick Start ###
 ```csharp
 // Creating OneSky Client
-var oneskyClient = OneSky.CSharp.Json.OneSkyClient.CreateClient(
+var oneskyClient = Lykke.OneSky.Json.OneSkyClient.CreateClient(
     "Your public API key",
     "Your secret API key");
 
@@ -50,7 +50,7 @@ For more information go to [Wiki](https://github.com/QuadRatNewBy/OneSky-DotNet/
 * [Wiki](https://github.com/QuadRatNewBy/OneSky-DotNet/wiki/Home) *(Soon)*
 * C# XML Documentation
 * Official [Platform](https://github.com/onesky/api-documentation-platform) and [Plugin](https://github.com/onesky/api-documentation-plugin) API Documentations
-* [Roadmap](https://github.com/QuadRatNewBy/OneSky.CSharp/wiki/Roadmap)
+* [Roadmap](https://github.com/QuadRatNewBy/Lykke.OneSky/wiki/Roadmap)
 
 ### Credits ###
 * [OneSkyApp](http://www.oneskyapp.com/) Team - Thanks for translation platform itself  
@@ -60,15 +60,15 @@ For more information go to [Wiki](https://github.com/QuadRatNewBy/OneSky-DotNet/
 
 ### Repository Structure ###
 
-* **OneSky.CSharp**: Main library project.
-* **OneSky.CSharp.Tests**: Tests for main library [Depends on **xUnit** and **FluentAssertions**].
+* **Lykke.OneSky**: Main library project.
+* **Lykke.OneSky.Tests**: Tests for main library [Depends on **xUnit** and **FluentAssertions**].
 
 ### Contribution ###
 * Pull requests are very welcome! Don't forget to use separate branch for each separate pull request.
-* If you have an idea, found bug or have a question - feel free to create new [Issue](https://github.com/QuadRatNewBy/OneSky.CSharp/issues) 
+* If you have an idea, found bug or have a question - feel free to create new [Issue](https://github.com/QuadRatNewBy/Lykke.OneSky/issues) 
 
 ### Tests ###
-This lib is covered by tests (partially) located in **OneSky.CSharp.Tests**. 
+This lib is covered by tests (partially) located in **Lykke.OneSky.Tests**. 
 
 To run this tests in VS - build solution, open *Test Explorer* window (Alt, S, W, T), click 'Run All..'. Or use any test runner you're familiar with.
 
