@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PlatformProjectGroup : IPlatformProjectGroup
     {
-        private readonly CSharp.IPlatformProjectGroup projectGroup;
+        private readonly Lykke.OneSky.IPlatformProjectGroup projectGroup;
 
-        public PlatformProjectGroup(CSharp.IPlatformProjectGroup projectGroup)
+        public PlatformProjectGroup(Lykke.OneSky.IPlatformProjectGroup projectGroup)
         {
             this.projectGroup = projectGroup;
         }

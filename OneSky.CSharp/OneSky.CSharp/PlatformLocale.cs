@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp
+﻿namespace Lykke.OneSky
 {
     internal class PlatformLocale : IPlatformLocale
     {

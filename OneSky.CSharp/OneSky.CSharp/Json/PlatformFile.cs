@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PlatformFile : IPlatformFile
     {
-        private CSharp.IPlatformFile platformFile;
+        private Lykke.OneSky.IPlatformFile platformFile;
 
-        public PlatformFile(CSharp.IPlatformFile file)
+        public PlatformFile(Lykke.OneSky.IPlatformFile file)
         {
             this.platformFile = file;
         }

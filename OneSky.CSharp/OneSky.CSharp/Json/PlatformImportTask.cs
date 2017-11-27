@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PlatformImportTask : IPlatformImportTask
     {
-        private CSharp.IPlatformImportTask importTask;
+        private Lykke.OneSky.IPlatformImportTask importTask;
 
-        public PlatformImportTask(CSharp.IPlatformImportTask importTask)
+        public PlatformImportTask(Lykke.OneSky.IPlatformImportTask importTask)
         {
             this.importTask = importTask;
         }

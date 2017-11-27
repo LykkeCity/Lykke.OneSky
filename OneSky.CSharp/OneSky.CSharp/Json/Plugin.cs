@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     internal class Plugin : IPlugin
     {
@@ -18,7 +18,7 @@
 
         public IPluginOrder Order { get; private set; }
 
-        internal Plugin(CSharp.IPlugin plugin)
+        internal Plugin(Lykke.OneSky.IPlugin plugin)
         {
             this.Locale = new PluginLocale(plugin.Locale);
             this.Specialization = new PluginSpecialization(plugin.Specialization);

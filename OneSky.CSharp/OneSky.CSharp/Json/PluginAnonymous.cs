@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PluginAnonymous : IPluginAnonymous
     {
-        private CSharp.IPluginAnonymous anonymous;
+        private Lykke.OneSky.IPluginAnonymous anonymous;
 
-        public PluginAnonymous(CSharp.IPluginAnonymous anonymous)
+        public PluginAnonymous(Lykke.OneSky.IPluginAnonymous anonymous)
         {
             this.anonymous = anonymous;
         }

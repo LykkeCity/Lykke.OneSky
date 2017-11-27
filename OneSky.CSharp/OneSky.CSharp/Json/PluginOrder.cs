@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -7,9 +7,9 @@
 
     internal class PluginOrder : IPluginOrder
     {
-        private CSharp.IPluginOrder order;
+        private Lykke.OneSky.IPluginOrder order;
 
-        public PluginOrder(CSharp.IPluginOrder order)
+        public PluginOrder(Lykke.OneSky.IPluginOrder order)
         {
             this.order = order;
         }

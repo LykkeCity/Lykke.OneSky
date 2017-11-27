@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -7,9 +7,9 @@
 
     internal class PluginQuotation : IPluginQuotation
     {
-        private CSharp.IPluginQuotation quotation;
+        private Lykke.OneSky.IPluginQuotation quotation;
 
-        public PluginQuotation(CSharp.IPluginQuotation quotation)
+        public PluginQuotation(Lykke.OneSky.IPluginQuotation quotation)
         {
             this.quotation = quotation;
         }

@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp
+﻿namespace Lykke.OneSky
 {
     /// <summary>
     /// The OneSkyRequest helper interface. Hides details of HTTP requests.

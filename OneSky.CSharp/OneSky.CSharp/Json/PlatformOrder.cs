@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PlatformOrder : IPlatformOrder
     {
-        private CSharp.IPlatformOrder order;
+        private Lykke.OneSky.IPlatformOrder order;
 
-        public PlatformOrder(CSharp.IPlatformOrder order)
+        public PlatformOrder(Lykke.OneSky.IPlatformOrder order)
         {
             this.order = order;
         }

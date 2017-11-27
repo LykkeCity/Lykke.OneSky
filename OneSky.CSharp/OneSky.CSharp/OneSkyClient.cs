@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp
+﻿namespace Lykke.OneSky
 {
     /// <summary>
     /// <para>OneSky API 'Plain' client.</para>

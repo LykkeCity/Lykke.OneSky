@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PluginSpecialization : IPluginSpecialization
     {
-        private CSharp.IPluginSpecialization specialization;
+        private Lykke.OneSky.IPluginSpecialization specialization;
 
-        public PluginSpecialization(CSharp.IPluginSpecialization specialization)
+        public PluginSpecialization(Lykke.OneSky.IPluginSpecialization specialization)
         {
             this.specialization = specialization;
         }

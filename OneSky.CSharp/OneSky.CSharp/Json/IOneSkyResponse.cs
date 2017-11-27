@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     /// <summary>
     /// The OneSky Deserialized-JSON response Interface.

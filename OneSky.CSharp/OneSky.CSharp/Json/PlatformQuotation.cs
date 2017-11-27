@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PlatformQuotation : IPlatformQuotation
     {
-        private CSharp.IPlatformQuotation quotation;
+        private Lykke.OneSky.IPlatformQuotation quotation;
 
-        public PlatformQuotation(CSharp.IPlatformQuotation quotation)
+        public PlatformQuotation(Lykke.OneSky.IPlatformQuotation quotation)
         {
             this.quotation = quotation;
         }

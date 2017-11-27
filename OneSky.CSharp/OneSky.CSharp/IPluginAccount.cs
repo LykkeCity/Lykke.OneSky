@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp
+﻿namespace Lykke.OneSky
 {
     /// <summary>
     /// Plugin API Account endpoints interface.

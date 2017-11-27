@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -7,9 +7,9 @@
 
     internal class PlatformScreenshot : IPlatformScreenshot
     {
-        private CSharp.IPlatformScreenshot screenshot;
+        private Lykke.OneSky.IPlatformScreenshot screenshot;
 
-        public PlatformScreenshot(CSharp.IPlatformScreenshot screenshot)
+        public PlatformScreenshot(Lykke.OneSky.IPlatformScreenshot screenshot)
         {
             this.screenshot = screenshot;
         }

@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     /// <summary>
     /// <para>OneSky API 'JSON' client.</para>
@@ -6,7 +6,7 @@
     /// </summary>
     public class OneSkyClient : IOneSkyClient
     {
-        private static IPluginAnonymous anonymous = new PluginAnonymous(CSharp.OneSkyClient.Anonymous);
+        private static IPluginAnonymous anonymous = new PluginAnonymous(Lykke.OneSky.OneSkyClient.Anonymous);
 
         /// <summary>
         /// Provides access to 'Anonymous' endpoints (without creating client instance with your API keys).
@@ -33,7 +33,7 @@
         /// </returns>
         public static IOneSkyClient CreateClient(string publicKey, string secretKey)
         {
-            var plainClient = CSharp.OneSkyClient.CreateClient(publicKey, secretKey);
+            var plainClient = Lykke.OneSky.OneSkyClient.CreateClient(publicKey, secretKey);
             var client = new OneSkyClient
                              {
                                  Platform = new Platform(plainClient.Platform),
@@ -60,6 +60,6 @@
         /// <summary>
         /// OneSky API 'Plain' client.
         /// </summary>
-        public CSharp.IOneSkyClient Plain { get; private set; }
+        public Lykke.OneSky.IOneSkyClient Plain { get; private set; }
     }
 }

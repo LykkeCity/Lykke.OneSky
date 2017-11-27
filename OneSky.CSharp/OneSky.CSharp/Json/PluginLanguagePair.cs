@@ -1,12 +1,12 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     using System.Collections.Generic;
 
     internal class PluginLanguagePair : IPluginLanguagePair
     {
-        private CSharp.IPluginLanguagePair languagePair;
+        private Lykke.OneSky.IPluginLanguagePair languagePair;
 
-        public PluginLanguagePair(CSharp.IPluginLanguagePair languagePair)
+        public PluginLanguagePair(Lykke.OneSky.IPluginLanguagePair languagePair)
         {
             this.languagePair = languagePair;
         }

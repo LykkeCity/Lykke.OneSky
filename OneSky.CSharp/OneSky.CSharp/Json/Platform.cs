@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     internal class Platform : IPlatform
     {
@@ -22,7 +22,7 @@
 
         public IPlatformScreenshot Screenshot { get; private set; }
 
-        internal Platform(CSharp.IPlatform platform)
+        internal Platform(Lykke.OneSky.IPlatform platform)
         {
             this.Locale = new PlatformLocale(platform.Locale);
             this.ProjectType = new PlatformProjectType(platform.ProjectType);

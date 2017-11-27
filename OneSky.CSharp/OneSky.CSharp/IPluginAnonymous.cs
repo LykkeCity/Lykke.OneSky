@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp
+﻿namespace Lykke.OneSky
 {
     /// <summary>
     /// Plugin API Anonymous Account endpoints (i.e. accessible without API keys) interface.

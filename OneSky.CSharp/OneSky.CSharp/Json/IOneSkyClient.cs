@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Json
+﻿namespace Lykke.OneSky.Json
 {
     /// <summary>
     /// <para>OneSky API 'JSON' client interface.</para>
@@ -19,6 +19,6 @@
         /// <summary>
         /// OneSky API 'Plain' client.
         /// </summary>
-        CSharp.IOneSkyClient Plain { get; }
+        Lykke.OneSky.IOneSkyClient Plain { get; }
     }
 }
