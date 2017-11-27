@@ -47,30 +47,21 @@ To find your API keys please go to [OneSky Support](https://support.oneskyapp.co
 For more information go to [Wiki](https://github.com/QuadRatNewBy/OneSky-DotNet/wiki/Home) *(Soon)*
 
 ### Documentation ###
-* [Wiki](https://github.com/QuadRatNewBy/OneSky-DotNet/wiki/Home) *(Soon)*
-* C# XML Documentation
 * Official [Platform](https://github.com/onesky/api-documentation-platform) and [Plugin](https://github.com/onesky/api-documentation-plugin) API Documentations
-* [Roadmap](https://github.com/QuadRatNewBy/Lykke.OneSky/wiki/Roadmap)
 
 ### Credits ###
 * [OneSkyApp](http://www.oneskyapp.com/) Team - Thanks for translation platform itself  
-* Felix Deimel ([lemonmojo](https://github.com/lemonmojo)) - Alternative implementation ([Here on GitHub](https://github.com/lemonmojo/OneSkyAppSharp))
  
 ## Repository ##
 
 ### Repository Structure ###
 
 * **Lykke.OneSky**: Main library project.
-* **Lykke.OneSky.Tests**: Tests for main library [Depends on **xUnit** and **FluentAssertions**].
+* **Lykke.OneSky.Example**: Example for use.
 
 ### Contribution ###
 * Pull requests are very welcome! Don't forget to use separate branch for each separate pull request.
 * If you have an idea, found bug or have a question - feel free to create new [Issue](https://github.com/QuadRatNewBy/Lykke.OneSky/issues) 
-
-### Tests ###
-This lib is covered by tests (partially) located in **Lykke.OneSky.Tests**. 
-
-To run this tests in VS - build solution, open *Test Explorer* window (Alt, S, W, T), click 'Run All..'. Or use any test runner you're familiar with.
 
 ## License ##
 [MIT](LICENSE.md)
