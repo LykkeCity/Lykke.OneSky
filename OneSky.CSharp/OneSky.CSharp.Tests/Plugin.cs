@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Tests
+﻿namespace Lykke.OneSky.Tests
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
 
     using FluentAssertions;
 
-    using OneSky.CSharp.Json;
+    using Lykke.OneSky.Json;
 
     using Xunit;
 

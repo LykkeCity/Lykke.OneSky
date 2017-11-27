@@ -1,8 +1,8 @@
-﻿namespace OneSky.CSharp.Tests
+﻿namespace Lykke.OneSky.Tests
 {
     using FluentAssertions;
 
-    using OneSky.CSharp.Json;
+    using Lykke.OneSky.Json;
 
     using Xunit;
 

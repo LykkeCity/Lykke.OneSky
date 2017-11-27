@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Tests
+﻿namespace Lykke.OneSky.Tests
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +8,7 @@
 
     using FluentAssertions;
 
-    using OneSky.CSharp.Json;
+    using Lykke.OneSky.Json;
 
     using Xunit;
 
@@ -443,7 +443,7 @@
         public void QuickStart()
         {
             // Creating OneSky Client
-            var oneskyClient = OneSky.CSharp.Json.OneSkyClient.CreateClient(
+            var oneskyClient = Lykke.OneSky.Json.OneSkyClient.CreateClient(
                 "Your public API key",
                 "Your secret API key");
 

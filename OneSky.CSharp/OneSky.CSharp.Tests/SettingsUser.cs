@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Tests
+﻿namespace Lykke.OneSky.Tests
 {
     public class SettingsUser
     {

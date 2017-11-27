@@ -1,4 +1,4 @@
-﻿namespace OneSky.CSharp.Tests
+﻿namespace Lykke.OneSky.Tests
 {
     using System;
     using System.Drawing;
@@ -13,17 +13,7 @@
     {
         private static string ImageToBase64(string path)
         {
-            using (var image = Image.FromFile(path))
-            {
-                using (var memoryStream = new MemoryStream())
-                {
-                    image.Save(memoryStream, image.RawFormat);
-                    var imageBytes = memoryStream.ToArray();
-
-                    var base64String = Convert.ToBase64String(imageBytes);
-                    return base64String;
-                }
-            }
+            return FileToBase64(path);
         }
 
         private static string FileToBase64(string path)
